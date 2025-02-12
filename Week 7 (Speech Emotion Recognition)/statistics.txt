@@ -1,0 +1,64 @@
+Dataset: ASVP-ESD (Speech & Non-Speech Emotional Sound)
+Download: https://www.kaggle.com/datasets/dejolilandry/asvpesdspeech-nonspeech-emotional-utterances/download?datasetVersionNumber=19
+
+Statistics of Dataset (before and after filtering)
+
+1. Modality
+   | 03 | Audio-Only | 12454 | 9545 |
+
+2. Vocal Channel
+   | 01 | Speech     | 5058 | 4104 |
+   | 02 | Non-Speech | 7374 | 5441 |
+
+3. Emotion
+   | 01 | Boredom, Sigh               | 542  | 463  |
+   | 02 | Neutral, Calm               | 1568 | 1182 |
+   | 03 | Happy, Laugh, Gaggle        | 1758 | 1493 |
+   | 04 | Sad, Cry                    | 1514 | 1219 |
+   | 05 | Angry, Grunt, Frustration   | 1453 | 1119 |
+   | 06 | Fearful, Scream, Panic      | 1170 | 958  |
+   | 07 | Disgust, Dislike, Contempt  | 899  | 591  |
+   | 08 | Surprised, Gasp, Amazed     | 1586 | 1065 |
+   | 09 | Excited                     | 401  | 315  |
+   | 10 | Pleasure                    | 365  | 325  |
+   | 11 | Pain, Groan                 | 832  | 570  |
+   | 12 | Disappointment, Disapproval | 365  | 245  |
+   | 13 | Breath                      | 1    | 0    |
+
+4. Emotional Intensity
+   | 01 | Normal | 10248 | 7800 |
+   | 02 | High   | 2195  | 1745 |
+   | ?? | ??     | 12    | 0    |
+
+5. Statement
+   - Describes period when data was collected (108)
+
+6. Actors
+   - Total Actors: 129
+   - Audio Clips per Actor:
+     | Min | 7    | 5    |
+     | Max | 357  | 318  |
+     | Avg | 96.5 | 74.0 |
+
+7. Age
+   | 01 | above 65      | 291   | 252  |
+   | 02 | between 20-64 | 11529 | 8860 |
+   | 03 | under 20      | 339   | 278  |
+   | 04 | baby          | 265   | 155  |
+   | ?? | ??            | 30    | 0    |
+
+8. Source of Downloading
+   | 01 | website | 2613 | 2078 |
+   | 02 | YouTube | 7638 | 5730 |
+   | 03 | movies  | 2147 | 1737 |
+   | ?? | ??      | 56   | 0    |
+
+9. Language
+   - Approximately equal mix of both English and Chinese
+   - Contains other languages such as French, Russian, and others
+   - Unable to extract values because naming convention is odd
+
+10. Length of Audio Clip:
+    | Min | 0.14      | 1.00  |
+    | Max | 134217.73 | 10.00 |
+    | Avg | 209.01    | 4.12  |
